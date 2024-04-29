@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/KeerthuK29/Terraform_RDS.git'
+                git branch: 'main', url: 'https://github.com/KeerthuK29/Terraform_RDS.git'
             }
         }
         stage('Run') {
