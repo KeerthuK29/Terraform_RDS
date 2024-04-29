@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'master', url: 'https://github.com/KeerthuK29/Terraform-with-Jenkins.git'
+                git branch: 'master', url: 'https://github.com/KeerthuK29/Terraform_RDS.git'
             }
         }
         stage('Run Terraform') {
